@@ -1,0 +1,22 @@
+[Unit]
+Description=Revalidate existing ODTU official session proofs
+After=network-online.target odtu-rez.service
+Wants=network-online.target
+[Service]
+Type=oneshot
+User=rez
+Group=rez
+Environment=TZ=Europe/Istanbul
+ExecCondition=/usr/bin/python3 /opt/odtu-rez/session-proof/refresh.py --due
+ExecStart=/usr/bin/python3 /opt/odtu-rez/session-proof/refresh.py
+TimeoutStartSec=120
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/odtu-rez/private
+ReadOnlyPaths=/var/lib/odtu-rez/chrome-profile
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+LimitCORE=0
+

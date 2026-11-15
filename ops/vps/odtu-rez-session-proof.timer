@@ -1,0 +1,10 @@
+[Unit]
+Description=Refresh official session proofs twice daily
+[Timer]
+OnCalendar=*-*-* 04,16:00:00 Europe/Istanbul
+Persistent=true
+AccuracySec=30s
+Unit=odtu-rez-session-proof.service
+[Install]
+WantedBy=timers.target
+

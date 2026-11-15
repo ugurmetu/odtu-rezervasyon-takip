@@ -1,0 +1,22 @@
+[Unit]
+Description=Private ODTU reservation application state backup
+
+[Service]
+Type=oneshot
+User=rez
+Group=rez
+WorkingDirectory=/opt/odtu-rez/backup
+ExecStart=/opt/odtu-rez/runtime/node/bin/node ops/vps/scheduled-backup.mjs
+TimeoutStartSec=30
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateNetwork=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/odtu-rez/private/backups
+RestrictAddressFamilies=AF_UNIX
+MemoryMax=128M
+TasksMax=16
+LimitCORE=0
+

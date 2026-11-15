@@ -1,0 +1,16 @@
+[Unit]
+Description=ODTU reservation watchdog (one check; see src/watchdog.mjs)
+After=odtu-rez.service odtu-rez-browser.service network-online.target
+
+[Service]
+Type=oneshot
+User=root
+Environment=TZ=Europe/Istanbul
+# Its own folder, outside the releases it watches; a bad release cannot stop it.
+ExecStart=/opt/odtu-rez/runtime/node/bin/node /opt/odtu-rez/watchdog/watchdog.mjs run
+TimeoutStartSec=90
+Nice=10
+UMask=0077
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=odtu-rez-watchdog

@@ -1,0 +1,30 @@
+[Unit]
+Description=Single ODTU reservation browser with extension
+After=odtu-rez.service odtu-rez-display.service network-online.target
+Requires=odtu-rez-display.service
+Wants=odtu-rez.service network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+User=rez
+Group=rez
+Environment=DISPLAY=:99
+Environment=TZ=Europe/Istanbul
+Environment=CHROME_DEVEL_SANDBOX=/opt/odtu-rez/runtime/chrome/chrome_sandbox
+ExecStart=/opt/odtu-rez/runtime/chrome/chrome --no-first-run --no-default-browser-check --disable-dev-shm-usage --user-data-dir=/var/lib/odtu-rez/chrome-profile --load-extension=/opt/odtu-rez/current/extension --restore-last-session
+Restart=always
+RestartSec=10
+TimeoutStopSec=30
+KillMode=control-group
+UMask=0077
+MemoryHigh=1500M
+MemoryMax=2200M
+TasksMax=384
+LimitCORE=0
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=odtu-rez-browser
+
+[Install]
+WantedBy=multi-user.target

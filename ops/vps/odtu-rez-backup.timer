@@ -1,0 +1,11 @@
+[Unit]
+Description=Back up ODTU reservation application state every six hours
+
+[Timer]
+OnCalendar=*-*-* 03,09,15,21:30:00 Europe/Istanbul
+Persistent=true
+AccuracySec=30s
+Unit=odtu-rez-backup.service
+
+[Install]
+WantedBy=timers.target

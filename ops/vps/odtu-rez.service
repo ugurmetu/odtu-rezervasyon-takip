@@ -1,0 +1,35 @@
+[Unit]
+Description=ODTU reservation notification service
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=rez
+Group=rez
+WorkingDirectory=/opt/odtu-rez/current
+Environment=PATH=/opt/odtu-rez/runtime/node/bin:/usr/bin:/bin
+Environment=TZ=Europe/Istanbul
+EnvironmentFile=/var/lib/odtu-rez/private/runtime.env
+ExecStart=/opt/odtu-rez/runtime/node/bin/node --max-old-space-size=512 src/server.mjs
+Restart=always
+RestartSec=10
+TimeoutStopSec=45
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/odtu-rez /opt/odtu-rez/current/extension
+MemoryHigh=600M
+MemoryMax=800M
+TasksMax=128
+LimitCORE=0
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=odtu-rez
+
+[Install]
+WantedBy=multi-user.target
