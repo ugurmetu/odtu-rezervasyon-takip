@@ -1,0 +1,17 @@
+{
+  "name": "metu-reservation-local-pilot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node src/setup.mjs",
+    "start": "node src/server.mjs",
+    "demo": "node src/demo.mjs",
+    "test": "node --test test/*.test.mjs extension/test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}

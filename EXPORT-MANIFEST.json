@@ -1,0 +1,704 @@
+{
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "8431fbff2df6f17aedeab2df532206fd87549206f945a6fdd5c28caa992ba1db"
+    },
+    {
+      "path": "ops/GITHUB-YAYIN.md",
+      "sha256": "bb2724d4f86d2531fb7dfbafbf2505db1788e66e7a803fdb6f9202274eaa106e"
+    },
+    {
+      "path": "ops/vps/scheduled-backup.mjs",
+      "sha256": "b64802b35c5ba1875ef0aad0aae3367d7e7afcb2a5ead1de8fbb6c48fde6a476"
+    },
+    {
+      "path": "ops/vps/odtu-rez-backup.service",
+      "sha256": "f1a311e3e3e7efaca2f4b4dbf5d87547368d4d5921b538e2dde45854e154bc50"
+    },
+    {
+      "path": "ops/vps/odtu-rez-backup.timer",
+      "sha256": "25a18201addd855636ec22284dce804ad841344c684c6b1147ad77b0eda81da4"
+    },
+    {
+      "path": "test/scheduled-backup.test.mjs",
+      "sha256": "81c90bd808ecc1a873031f62f08569fbc1b7f2d213f3d884dcfb9a3841e8ef9a"
+    },
+    {
+      "path": "ops/vps/odtu-rez-session-proof.service",
+      "sha256": "1d5d1d1fdca120feb9f39d0c89bbf85540764a17ce801b317977aec2b71084ae"
+    },
+    {
+      "path": "ops/vps/odtu-rez-session-proof.timer",
+      "sha256": "3f849d75a9ea2c1cb69748e2b9dad93fb2e8b9ff514c3fbd2f0091f8d03e561c"
+    },
+    {
+      "path": "ops/vps/official-session-proof.py",
+      "sha256": "fe9bcc56372a9803e10ae4612048873dbce010a5e60b09bd0951078104d6292d"
+    },
+    {
+      "path": "ops/vps/refresh-session-proof.mjs",
+      "sha256": "9ecab64a285f5f388c4783047ba65ba27079094ad51b2b101e0af5d23a36568d"
+    },
+    {
+      "path": "test/official-session-proof.test.mjs",
+      "sha256": "d7c305f8e44a7d6c9728ccc5945fba61f22f95a6b98c24007fb05bf4feb72654"
+    },
+    {
+      "path": "src/publication-wait.mjs",
+      "sha256": "e6bea3e23a43dbf083a6fbb3d5191e6f711fe76997fd704abc0912f279a698e3"
+    },
+    {
+      "path": "test/publication-wait.test.mjs",
+      "sha256": "8a78d527142604a6d01a6aa92242db5afa614a2598f039ee9b8d2b58d23180f6"
+    },
+    {
+      "path": "src/native-verification.mjs",
+      "sha256": "474be6be8932964729775ecddd4f1232153cea86422478fef1c1bf172aa4bf64"
+    },
+    {
+      "path": "test/native-verification.test.mjs",
+      "sha256": "998cab3bf6640d093f5e01c31cc81824c1bd23f14c6e13f7001741a19dc4f780"
+    },
+    {
+      "path": "test/native-route.test.mjs",
+      "sha256": "72ba6dbb403e3ede4c5346a889dc4d4da0e5949d8ff913624fe65d30ce4adddb"
+    },
+    {
+      "path": "extension/worker-0.11.1.js",
+      "sha256": "4792af0e336b42e8a7c155707381e3bee65caff296b7ac232fa52c4b36ab7938"
+    },
+    {
+      "path": "extension/worker-0.11.2.js",
+      "sha256": "edb4ae8d25538ee4447e16f7af8898874f4409b7c0dc6ba4bf2316ae57a56518"
+    },
+    {
+      "path": "extension/worker-0.11.3.js",
+      "sha256": "472a18e18c083cf295e728973214bc4d9f5280faab6b9c8e5fa7d840523b3d12"
+    },
+    {
+      "path": "extension/worker-0.11.4.js",
+      "sha256": "472a18e18c083cf295e728973214bc4d9f5280faab6b9c8e5fa7d840523b3d12"
+    },
+    {
+      "path": "src/telegram-multi-picker.mjs",
+      "sha256": "e3c54571ab9340841c98d338bb63dab1ccf264cff495a96cd7fbb1e243860329"
+    },
+    {
+      "path": "src/memory-guard.mjs",
+      "sha256": "341ca1cf595d304aa5f76abfbf1172265599968d62a1316ad6d3cc94f789ef7e"
+    },
+    {
+      "path": "src/operator-alerts.mjs",
+      "sha256": "834619cbad3f488e902afad0517641acaee0055510cb223b96f13c93a2dd5ea4"
+    },
+    {
+      "path": "src/site-link.mjs",
+      "sha256": "586dd9dd2306321a439eeffe856e4b81127595611768aabaaab2e2019775457b"
+    },
+    {
+      "path": "test/site-link.test.mjs",
+      "sha256": "607480dd65abe09b7b0d289b24c6d3593f3282c109873ca30e71cbf43f776a90"
+    },
+    {
+      "path": "test/memory-guard.test.mjs",
+      "sha256": "303f3a9d7ee5507413f78ae401edb75499c7d23f5ca874d15c77704a10b70cbf"
+    },
+    {
+      "path": "test/memory-route.test.mjs",
+      "sha256": "ad057effaa3da9fb46ea0bc6b6cf11b91ce0b537ecc9e54961f982473bcb12cb"
+    },
+    {
+      "path": "test/operator-alerts.test.mjs",
+      "sha256": "61e4a6d2b94ab233adb0b2977328c77ede255699815237a3a0575a243ccc4066"
+    },
+    {
+      "path": "extension/memory-guard.js",
+      "sha256": "b340cc02698659989eb7a77114adf94dd363058cf1797da87bf2efc0f82d8455"
+    },
+    {
+      "path": "extension/test/memory-guard.test.mjs",
+      "sha256": "5107588e7f5aa74881d723ef09b6d70653a20c51c7b59001aa7feac532bbd6b7"
+    },
+    {
+      "path": "extension/worker-0.10.3.js",
+      "sha256": "e49c4571fde466684c5a42c5051a8dd30de96b2c62aa738a8c46ae9320e8e8bb"
+    },
+    {
+      "path": "extension/worker-0.10.4.js",
+      "sha256": "e49c4571fde466684c5a42c5051a8dd30de96b2c62aa738a8c46ae9320e8e8bb"
+    },
+    {
+      "path": "extension/worker-0.10.5.js",
+      "sha256": "e49c4571fde466684c5a42c5051a8dd30de96b2c62aa738a8c46ae9320e8e8bb"
+    },
+    {
+      "path": "extension/worker-0.10.6.js",
+      "sha256": "e49c4571fde466684c5a42c5051a8dd30de96b2c62aa738a8c46ae9320e8e8bb"
+    },
+    {
+      "path": "extension/worker-0.10.7.js",
+      "sha256": "e49c4571fde466684c5a42c5051a8dd30de96b2c62aa738a8c46ae9320e8e8bb"
+    },
+    {
+      "path": "extension/worker-0.10.8.js",
+      "sha256": "e49c4571fde466684c5a42c5051a8dd30de96b2c62aa738a8c46ae9320e8e8bb"
+    },
+    {
+      "path": "extension/worker-0.10.9.js",
+      "sha256": "e49c4571fde466684c5a42c5051a8dd30de96b2c62aa738a8c46ae9320e8e8bb"
+    },
+    {
+      "path": "ops/vps/odtu-rez.service",
+      "sha256": "1784d2aa71e5ac142ea91cd6ab15b42c0f8507cafadfceac2b3e6c4989c1691c"
+    },
+    {
+      "path": "ops/vps/odtu-rez-watchdog.service",
+      "sha256": "08688f45029d3003d291c0cc2b5210c44ab25dbe8b0590bdb4965799f994aab5"
+    },
+    {
+      "path": "ops/vps/odtu-rez-watchdog.timer",
+      "sha256": "9a1e6f16c16b2286bda22480efb15a6ac33f1fda39a0a9cccdf335805c40054c"
+    },
+    {
+      "path": "ops/vps/WATCHDOG.md",
+      "sha256": "608f008cbc24c2ba6783e41e45d9e67ac16cb458be2d19656bb988853d1cb0ef"
+    },
+    {
+      "path": "src/intervention.mjs",
+      "sha256": "e3d1cc75cfef186fc0baef56e7a0120705f9945d9096a76e1d93a3926f5395a5"
+    },
+    {
+      "path": "src/watchdog.mjs",
+      "sha256": "0b8b0b6681e69c1ad3487b5852ed7d6d2acd28c6bd1d35e3f6bca5c275af6600"
+    },
+    {
+      "path": "test/watchdog.test.mjs",
+      "sha256": "0bfcb2d3fc3226cc0f2d3446f57812d2c4558dc88e0a447b3de3ac450cd8607c"
+    },
+    {
+      "path": "test/store-save.test.mjs",
+      "sha256": "7aec5552100bf422708309a254a497757c6d5e34220c24bf29656740288b1329"
+    },
+    {
+      "path": "test/chat-gone.test.mjs",
+      "sha256": "9605b0a24b108da4e6cf225cd507c4709d43538ff000adfbe67787682b977cd3"
+    },
+    {
+      "path": "src/owner-stats.mjs",
+      "sha256": "ff86c55a986407be07920c76e23e5fa0fbce6650e6cac8e3918fa7b6cf44f830"
+    },
+    {
+      "path": "test/owner-stats.test.mjs",
+      "sha256": "9b2ebf52f52b24c6ccaee1b880703e7bbc26ab22747e11699d74b8149d89d81e"
+    },
+    {
+      "path": "ops/vps/provision.sh",
+      "sha256": "44c1669c891ed68bfe3136c5ed6c48fe1b72484aab6118ff3dc19f924b604f61"
+    },
+    {
+      "path": "ops/vps/OPERATOR-ALERTS.md",
+      "sha256": "c3e3abf9b038eb8d91fa1c40b2cf1ae667711559cf3bcbe1b283268aba3c8cbc"
+    },
+    {
+      "path": "ops/vps/MONITOR-NOTIFICATIONS.md",
+      "sha256": "4ba050ac543b588ef6dd3fefdeed2606a63426e25c07be9f1422177159ff5667"
+    },
+    {
+      "path": "ops/vps/notify-operator.mjs",
+      "sha256": "5da41e4b876fa61a5c8fbd332f6f084d954ce2f25a9557c679b8fb3bfab0724d"
+    },
+    {
+      "path": "ops/vps/notify-operator.test.mjs",
+      "sha256": "8576c265073fbe3f25528e44a5821fd009b20a35890745a0b03ebc77e7b55a54"
+    },
+    {
+      "path": "ops/vps/DEPLOYMENT-2026-10-29.md",
+      "sha256": "b3ee4bb9effb2061f4857e5e52c90abd0fd559f97ac80638a5e6f52b26e3f077"
+    },
+    {
+      "path": "ops/vps/odtu-rez-browser.service",
+      "sha256": "cd38845055bbe7ad82847817e0d92552ee884eab440a63936da585d1fa40de61"
+    },
+    {
+      "path": "ops/vps/check-remote.mjs",
+      "sha256": "afdf8de9711341bc3392385ce31a7291ce4ada6e67edf77e8c443dcde4ef655a"
+    },
+    {
+      "path": "ops/vps/stage-bootstrap.mjs",
+      "sha256": "a5ef7e252a7e1c1762602db4139ea5749f6f282d20abe9f6e0c4c1e55ebac44b"
+    },
+    {
+      "path": "ops/vps/README.md",
+      "sha256": "9e9a6b4003f34607b01fef107bf012f2b449ba401def93e4d1d289a39fab8255"
+    },
+    {
+      "path": "ops/vps/audit-inventory.mjs",
+      "sha256": "54302e7dbcf67afe31a38a0424510fe0f5921369e35d09b30b13cb654cdebb42"
+    },
+    {
+      "path": "ops/vps/nightly-audit.mjs",
+      "sha256": "d7dbffbdd617d7521dc7db503e0c2dcb803eb60f2224d4f5f3edf1a18d6eef9f"
+    },
+    {
+      "path": "ops/vps/NIGHTLY-AUDIT.md",
+      "sha256": "fa70ff5df68e794df54f3f711dbeb23c7bdb61e985b023d42c709990196d6425"
+    },
+    {
+      "path": "test/nightly-audit.test.mjs",
+      "sha256": "d60027521d383abb2650f875ee7332c0f571d821153bbfd13a978453232678fb"
+    },
+    {
+      "path": "ops/vps/SCREEN-VIEW.md",
+      "sha256": "e96f100f52c6f67ef54d5a372152684d58ebc66a7937f05d14a93e1dfce58bde"
+    },
+    {
+      "path": "ops/vps/odtu-rez-display.service",
+      "sha256": "05f47a2d9628ad3688dbe309efc6e5ffce3b44e69a1293fb013aa07461d3d394"
+    },
+    {
+      "path": "ops/vps/build-release.mjs",
+      "sha256": "0adf17cda327d4a5420ff0f5cae295e3485c532e94cd5d9acc4606510d4ad56e"
+    },
+    {
+      "path": "ops/vps/boot.html",
+      "sha256": "cc22463ff580398434f4f833327e06ee32d9a13c81647376e30c4fb0ec713fa6"
+    },
+    {
+      "path": "ops/vps/MEMORY-GUARD.md",
+      "sha256": "feea3eba7de8f87e66ff778231507d0f4ee1387345735789f1ab31e8bd082825"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "3c22c8227b560701c289a7fc6c3321a75c1942ac2ea6549bda75d6a60d1d4ddb"
+    },
+    {
+      "path": "README.md",
+      "sha256": "555f8e3fb8f7be92e186eaa66657beb26b98b1381add99a217708420f8f39565"
+    },
+    {
+      "path": "package.json",
+      "sha256": "1e2498eccc53ab8fd39ecb4078f3f698df153242bd92a3798df1d587bda8a7e0"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "868cdb776891012c5b755f9e6935134562055e299cd1d4a78eb752621a6b06e3"
+    },
+    {
+      "path": "assets/brand/rezervasyon-mark-source.png",
+      "sha256": "d1caf6adec0f7ee81e71884fc3324739def5dbb84df1dd938e9530406fc484ca"
+    },
+    {
+      "path": "assets/brand/telegram-avatar-512.jpg",
+      "sha256": "9ca1e01964e71d44bf49cd4945a1df1cfeb2809ed6dea6bda22a56e53bcb530b"
+    },
+    {
+      "path": "assets/brand/telegram-avatar-512.png",
+      "sha256": "ac39110736d4798ddd9837d41f10cee4e96b5902e09d38ff39141ac24ba6012b"
+    },
+    {
+      "path": "data/facilities-2026-10-18.json",
+      "sha256": "bf21195e5786d756fa08f953f3d4136ca8e54d1fea7efa68998632fde7d0cc58"
+    },
+    {
+      "path": "extension/.gitignore",
+      "sha256": "59e408e9c26432c3edfa3b85137073098908959190778380dd4af66979f7a279"
+    },
+    {
+      "path": "extension/README.md",
+      "sha256": "3628be5c06e94f60156682cb8cc644bcc0ff0f816c55ec2b48e54c8bc147a3ad"
+    },
+    {
+      "path": "extension/background.js",
+      "sha256": "9a283e586008123c71adb854360800f229b164d8e755479c391ac94386c9c59c"
+    },
+    {
+      "path": "extension/content.js",
+      "sha256": "f6909d8fc80f740db4946f4587d057d21fa24029c1467fa478a1f95e50c38b06"
+    },
+    {
+      "path": "extension/main.js",
+      "sha256": "81f38be35a77a0f04451c30353720e4a9b9056bf0dbc80b57fd86340c40d1b2d"
+    },
+    {
+      "path": "extension/manifest.json",
+      "sha256": "73d8611c51383d729e2694b76d7e57fc91feefc953d5495d436838e295d3d4a1"
+    },
+    {
+      "path": "extension/parser.js",
+      "sha256": "4aaf9d7c5e4f9e702586cc1ada1e336564070ee932acc50442d3111407c0cee8"
+    },
+    {
+      "path": "extension/popup.html",
+      "sha256": "19dd9a42a3de53b5c0445b32259d922c2082c6cf7e5422e8ae4f107e22784270"
+    },
+    {
+      "path": "extension/popup.js",
+      "sha256": "165d4e55e2b279cf37a9797d6e73642f099b4fbc181a19cbedb8d8abfdba0ea0"
+    },
+    {
+      "path": "extension/icons/icon-16.png",
+      "sha256": "49cc7925fc7d64bd3204160782ea155c75fca30bf7eb186493f2eaf7e9149ec1"
+    },
+    {
+      "path": "extension/icons/icon-32.png",
+      "sha256": "b744be4b9ca9bb1a99e3981c7bb57f3b6e8c39503cf60e3c445d734abfd6e230"
+    },
+    {
+      "path": "extension/icons/icon-48.png",
+      "sha256": "adc18fb03d68fb00625439ec2ac08f4e28d875079ebde92e2602ae80384d3029"
+    },
+    {
+      "path": "extension/icons/icon-128.png",
+      "sha256": "b0549bb5a06843283c7d4e912bf0efe44eae6848247f135b3da345c07627a11d"
+    },
+    {
+      "path": "extension/local-config.example.json",
+      "sha256": "37698dc233862d0fa9ea1d3543237d96545c1e6b5e5bbb92a933e4ef7dd747cd"
+    },
+    {
+      "path": "extension/verification.js",
+      "sha256": "6a7848986c7b218dd7f5dc2e859c70d9b484117d5fd910753ba7e7913be7aeb0"
+    },
+    {
+      "path": "extension/verification-checkbox.js",
+      "sha256": "203bb14201e4bf9fa1d26a0ab5fbb7b4adb8fc6f7b6ff12a2561686a4b37a918"
+    },
+    {
+      "path": "extension/verification-content.js",
+      "sha256": "b1559b7fdfc718003b5aef3a64a6b0f02fcb2a3db42720ca6960e3fef4f4a524"
+    },
+    {
+      "path": "extension/test/verification.test.mjs",
+      "sha256": "189f60b9883a33704504d77cd10898fa3986272247f32147f25bfeb5d4215b74"
+    },
+    {
+      "path": "extension/test/verification-checkbox.test.mjs",
+      "sha256": "6fff6f1d327e410fbb571a5c8c518a72be34d69d219d6e7d2c56debd2c51c101"
+    },
+    {
+      "path": "extension/test/verification-content.test.mjs",
+      "sha256": "23d605092116361a13eaf8e050c72b8e75fe458729c2be6365cc54ca8ec100b5"
+    },
+    {
+      "path": "extension/test/background.test.mjs",
+      "sha256": "464111740ebf165d9bf1e38c51a6e98cdc4ccdf5f867dc8b876b748c04b5b4a7"
+    },
+    {
+      "path": "extension/test/content.test.mjs",
+      "sha256": "ca27b5d29c83024e9198842fd32e81cca793b108c12951e5855ee957892b3221"
+    },
+    {
+      "path": "extension/test/diagnostics.test.mjs",
+      "sha256": "7899d67bd66303baacfd18bdefe55e211b0ace847743a46dd33bfceecf9bf89e"
+    },
+    {
+      "path": "extension/test/main.test.mjs",
+      "sha256": "b27d2c97e1711671819d1df10cd859a6ad817ff47f0a409221e553acf2442367"
+    },
+    {
+      "path": "extension/test/direct-read.test.mjs",
+      "sha256": "c4f981881527b281391304fee3da7f1508c4421bb8af01f6f1a92b51a07220ed"
+    },
+    {
+      "path": "test/capacity.test.mjs",
+      "sha256": "13b63cee25df7c781d5d61ac6d8485d750ed5c5097fc3fe5d845b213d23c2064"
+    },
+    {
+      "path": "extension/test/parser.test.mjs",
+      "sha256": "288e5856a91a5fd30f9910fafeefe2dcbe1374a000f1f483226341cfe5f000a4"
+    },
+    {
+      "path": "extension/test/popup.test.mjs",
+      "sha256": "418675af648fb40c12c07a312bfb10a825c999cf2f161f894383ec4491a23a93"
+    },
+    {
+      "path": "ops/HERKESE-ACIK-KULLANIM.md",
+      "sha256": "120951c00f01b4b2935b46f19d6c37ee730db80c4d9097031df5f29f720289d6"
+    },
+    {
+      "path": "ops/ARKADAS-BETA-TESTI.md",
+      "sha256": "5a80837e8818808ea50962744a402b0bf630eb682335df9107e176c447834e93"
+    },
+    {
+      "path": "ops/KABUL-DENETIMI.md",
+      "sha256": "0b643a12dee93237c6a1e60c802d9e40bd420cfbfcc96ef09673ea6bb25f0656"
+    },
+    {
+      "path": "ops/KAYNAK-KAPSAM-KARARI.md",
+      "sha256": "356f3135e52453a5b0be46e8da0fd95368248c499ae9b1e650e011d41de88d82"
+    },
+    {
+      "path": "ops/MAC-BETA.md",
+      "sha256": "82a91d3ab07f3f7e934d41c2e09f783c6750eb6b7655dab101477d75436e1a91"
+    },
+    {
+      "path": "ops/MERKEZI-GECIS-KAPILARI.md",
+      "sha256": "d4b3472ac4a289909e2627f1750544ba7ba5b315ba8747fe281f6f2087d102f5"
+    },
+    {
+      "path": "ops/ODTU-TEKNIK-SORU-TASLAGI.md",
+      "sha256": "4c05842d281ac0b576faf57a92143f193772900b066f9c71baa0a0c18c2ca72d"
+    },
+    {
+      "path": "ops/SECURITY-REVIEW.md",
+      "sha256": "e2d122051ea634e9f9b96a774b50f544e230d24822e0cf7f2a3c8878569a6eec"
+    },
+    {
+      "path": "ops/SUNUCU-SECIMI.md",
+      "sha256": "af7380560823bd688080cda4d0e1464aa2ec786a074a3f31c2213f11acf67024"
+    },
+    {
+      "path": "ops/backup-state.mjs",
+      "sha256": "6bf605da041c99564d32e5ea5740e2d245d78fd9ce89c2e2aab620ffc7e6c583"
+    },
+    {
+      "path": "ops/beta-status.mjs",
+      "sha256": "a1befddb41026b8ded22092f271e80ff7bb64e7f0fa47dcf989d870a1443dea9"
+    },
+    {
+      "path": "ops/e2e-delivery-probe.mjs",
+      "sha256": "e040de806cc62a1f57cc34ce632f2a3aadb8acb8a041abcb8678b093804fe597"
+    },
+    {
+      "path": "ops/coverage-diagnosis.mjs",
+      "sha256": "c602031dccd4a0609e75ce46a6bdb38891720e8426e15ee749c5293baba27ca0"
+    },
+    {
+      "path": "ops/export-public-source.mjs",
+      "sha256": "19db74ba20c310bf6addfeafef27ec4022aa64f3f718a86438c788311736e2af"
+    },
+    {
+      "path": "ops/health-report.mjs",
+      "sha256": "a3fc64db8d2e9d905bbed840eea54aef983640493af0b12cfa024cc468a9655c"
+    },
+    {
+      "path": "ops/scale-probe.mjs",
+      "sha256": "d9720995a09780eaf1bb4ec9070f7595d5ee2df6017805f216dad2d02e8d6aa9"
+    },
+    {
+      "path": "ops/setup-owner-chat.mjs",
+      "sha256": "782eb1b773fe12669401f58e9d2b431fd4e04a782ce5628bb655c0a2d75d9392"
+    },
+    {
+      "path": "ops/slot-trace.mjs",
+      "sha256": "76a05cdbc8f2edcef77e5e50e9e207d02a5f2930b683e5065780f01c82c67e4a"
+    },
+    {
+      "path": "ops/tr.ugurmetu.rez-pilot.example.plist",
+      "sha256": "5dac30e5a3138cc556908deb227abfdf5d19781162dc43a7edb62d4fdf2df645"
+    },
+    {
+      "path": "ops/update-bot-profile.mjs",
+      "sha256": "f052271b93b6c2f974b36f77c822eede31af6520296d50f4d418ea3d6a15a7e8"
+    },
+    {
+      "path": "src/core.mjs",
+      "sha256": "2d81892febb517f41b60ebc92662e0a2ea63e440ffed0f0d911d44195162a265"
+    },
+    {
+      "path": "src/coverage.mjs",
+      "sha256": "d3c2f3286923f3947b7c77cce0b99763486c10662a3a6019e84d34caaba31090"
+    },
+    {
+      "path": "src/demo.mjs",
+      "sha256": "a0ed77c11a1a0cd0ff377596aa57b76e855dc23944283467c8de881bdf42fa97"
+    },
+    {
+      "path": "src/fake-site.mjs",
+      "sha256": "27022d9375aa72f93e2ed64dd406c432d663d4dbce2615be842c3d2ddb76f3aa"
+    },
+    {
+      "path": "src/health-history.mjs",
+      "sha256": "f6b911703df3bbf9dc71c1ff7f6f48b8deeaf7ffb3d9c2cbf0d9724e56f68f64"
+    },
+    {
+      "path": "src/server.mjs",
+      "sha256": "938c2f7dd8ccb11a3469c49c5efa15c27f38b8ff08e673acc240693f5baea9a6"
+    },
+    {
+      "path": "src/setup.mjs",
+      "sha256": "e2f38f75cdbf54b4d74e608343709327eeec4708cf4fcf42f3fbef8546402f5c"
+    },
+    {
+      "path": "src/store.mjs",
+      "sha256": "8451fb14a808c1e43eb7977da2e458fd5cfc4745c34bbd65c4b3238f351c66eb"
+    },
+    {
+      "path": "src/i18n.mjs",
+      "sha256": "6b5485e626ba0148e0eef17dfcb78647875c2d092b691bfe76b79beba4c5843e"
+    },
+    {
+      "path": "test/i18n.test.mjs",
+      "sha256": "67019e0390060817818230e388b89b1a0683d51cccf08c3cc59d98b2207295e6"
+    },
+    {
+      "path": "src/reader-facilities.mjs",
+      "sha256": "5eaad0c3dde9f66a9aadcb4c2922bf62468d3af8fd2e2890fc35ac0fb65511da"
+    },
+    {
+      "path": "src/reader-plan.mjs",
+      "sha256": "e2f29441302815fbfeb27bfa08dda5c0bd157df695bc8dfec3726959e341db61"
+    },
+    {
+      "path": "test/reader-plan.test.mjs",
+      "sha256": "2910317b4e10d8b5797688f1a9721b4c5323f58a1f8628a462e3a6e2decce637"
+    },
+    {
+      "path": "src/legacy-redirect.mjs",
+      "sha256": "108c340d87724eea39fa4a4e2de898dce80a2954fee52782cd79c91df2812be1"
+    },
+    {
+      "path": "src/telegram.mjs",
+      "sha256": "48d6daab7ae2655867ac70de36220a2f79be1a6a43a5ea4565258f172600d0bd"
+    },
+    {
+      "path": "src/slot-alerts.mjs",
+      "sha256": "c6c6c424f4b8abd849152865c8ce5f8828b6d50ae3a7f63b6db84c9ce16e7257"
+    },
+    {
+      "path": "test/slot-alerts.test.mjs",
+      "sha256": "e24e8dcf036a04dd8daf6538accf2f275fd2b758464d74809009c399795a47de"
+    },
+    {
+      "path": "test/backup-state.test.mjs",
+      "sha256": "f7bcd26388beb226b951ef357e41a23543229955871e6e73542804df9053e80c"
+    },
+    {
+      "path": "test/core.test.mjs",
+      "sha256": "ab02f5806c9fe24d855bd9d26ed4e00339606c863ae06a19cc1bf405f201f6e9"
+    },
+    {
+      "path": "test/coverage.test.mjs",
+      "sha256": "cf4fe43179511cdc4265bbcb556962d2870ff34bed74f1c3d848690c4e3eef34"
+    },
+    {
+      "path": "test/export-public-source.test.mjs",
+      "sha256": "0e898918bda54ffc464cc531b783d171140a87cb9369ea6480361e5cac95c592"
+    },
+    {
+      "path": "test/fake-site.test.mjs",
+      "sha256": "a08977417378f135d9875db2f2b74757f5b4bf4b3bb523edc741926b9ad0496b"
+    },
+    {
+      "path": "test/health-history.test.mjs",
+      "sha256": "88f50bf965ec8e1b5d3514f00d4b45b81b72d2ad49d0da8eb34b5989d37429c6"
+    },
+    {
+      "path": "test/server.test.mjs",
+      "sha256": "5116ce146a9dfd3df6f184c06e410c81ee8c58ec195fb9176a71e844d679e12c"
+    },
+    {
+      "path": "test/setup-owner-chat.test.mjs",
+      "sha256": "d21f3b45889d42f341a0a8c411ea0f588888d7be2aea7d8217837ecb8f15ce5f"
+    },
+    {
+      "path": "test/slot-trace.test.mjs",
+      "sha256": "44454f3a29125d24baddbd78d663a7eeefb5081f762838dacd33fd1e45d7ad16"
+    },
+    {
+      "path": "test/store.test.mjs",
+      "sha256": "e68fbadf603616608d85ee9cafc378be141b0d0a3c2a51524fed9b7f7d62f5a3"
+    },
+    {
+      "path": "test/telegram.test.mjs",
+      "sha256": "ad0ccaeef63009be06a6c1a9aaffcc78c9a256c5e6cf6d9a4a3e85aa2c1fbfd7"
+    },
+    {
+      "path": "test/uncertain-delivery.test.mjs",
+      "sha256": "7a63d76cda34e026c7ae2b070307bcb9793b280d8913e8d88342adb2f3f91947"
+    },
+    {
+      "path": "extension/single-reader.js",
+      "sha256": "e2c311e0a0613d585f0924da9baadd2fec1133b8c10d41b45a98fc5effc1c79d"
+    },
+    {
+      "path": "extension/test/single-reader.test.mjs",
+      "sha256": "87e2632203cbcf2d9c2d0c4e47606499599b208f338f7afd570e189e01618e7b"
+    },
+    {
+      "path": "extension/parallel-reader.js",
+      "sha256": "bcdc0847fc7fa3d0de0e220ef3a92855703b9612f18234813b3370e91d938f8a"
+    },
+    {
+      "path": "extension/test/parallel-reader.test.mjs",
+      "sha256": "d361723116482baf7e7f1f3fdd88884eb3d1ea686c56988baa0e8eb1e7a9f70a"
+    },
+    {
+      "path": "extension/scheduler.js",
+      "sha256": "a6f6264a36b90380670412967859054162a4d0050f80176b7be029b9747ee80a"
+    },
+    {
+      "path": "extension/catalog.js",
+      "sha256": "bf6d151703ddc8e6c5d762358f4169a82557cdb83b69ac1fbdea564be4815dfd"
+    },
+    {
+      "path": "extension/test/catalog.test.mjs",
+      "sha256": "b56521e625c03814ed350189c854ded6e571d8ea1cda3a6a91452e4a7d8d6d9f"
+    },
+    {
+      "path": "extension/test/scheduler.test.mjs",
+      "sha256": "6f90e4abf1872d705d9d6778b7ce5a994b63317cfbde2da7dca02a8bb169e956"
+    },
+    {
+      "path": "extension/recovery.js",
+      "sha256": "37020be1e4d80b09d324c019639dbd3d033009c147e41e78c55f6608b106ab88"
+    },
+    {
+      "path": "extension/reader-clock.js",
+      "sha256": "40b1de5acf958e9b8a3dcdfc5cdf56a3d663fa3ec53b656a90f8b63551107f91"
+    },
+    {
+      "path": "src/reader-clock.mjs",
+      "sha256": "cd195371f3ce7bae5534d1382913b8ecdc23c2541e8b27b59ab51a14c4227ebc"
+    },
+    {
+      "path": "test/reader-clock.test.mjs",
+      "sha256": "acec3cef8d7d7c84053ba8866f5ac5e19caa190aeee4d48f95e85025e11bb415"
+    },
+    {
+      "path": "extension/test/reader-clock.test.mjs",
+      "sha256": "9f92bad75152c60158cabe691ac28b952339a8bfac5aaf4291abbce8618395f2"
+    },
+    {
+      "path": "extension/test/recovery.test.mjs",
+      "sha256": "17a8459b034969656eadd9d7b68725986a5c3d755584908c2ebb74266247d58e"
+    },
+    {
+      "path": "ops/keychain.swift",
+      "sha256": "3b3fcf38d7a9aff3f365ca03bfce7529372b769ce75855e951affc9df9d236e1"
+    },
+    {
+      "path": "src/credentials.mjs",
+      "sha256": "20af7e3ef217db3bc3c12ad3ec2a64e7a7f9e83f67c47fe05832fbc6932b1e13"
+    },
+    {
+      "path": "src/telegram-picker.mjs",
+      "sha256": "009a8a03ee26984ca3a571ce662ab71b75b87d5dfd8648d37bac50337852a9ef"
+    },
+    {
+      "path": "test/linux-credentials.test.mjs",
+      "sha256": "0a74dff901263f4009e47d363a9e1bed4c108caa56aaa052c6e135e945f108d5"
+    },
+    {
+      "path": "test/public-access.test.mjs",
+      "sha256": "be42c689f68e0405054200c60487e86e90ad9289be3e79c40edc4c4fbec2d54f"
+    },
+    {
+      "path": "test/availability-watch.test.mjs",
+      "sha256": "14fa19fcc9b3794b5ea211897b353fb3c2e5b587adefb1e169ac4357fad8c009"
+    },
+    {
+      "path": "test/credentials.test.mjs",
+      "sha256": "e3d7c25d2538973464a2fa77b6c61ac59837b12d4498f533e4adb9d017cd5617"
+    },
+    {
+      "path": "test/telegram-picker.test.mjs",
+      "sha256": "f6b02bc0eea3ccd1a26882903975c32e79b242dba0d09b9dc8edfc6580232f00"
+    },
+    {
+      "path": "test/telegram-menu-latency.test.mjs",
+      "sha256": "acc1ac9c17bfab65d57699da115f2faebeb437c90ceda6d579658a6ecb261be0"
+    }
+  ]
+}
