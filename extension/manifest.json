@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "ODTÜ Rezervasyon Takip",
+  "version": "0.11.4",
+  "description": "Resmî listede bulunan tesisleri ve değişen seansları yerel servise aktarır; seçilen boş yerleri bildirir.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "alarms",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://rez.metu.edu.tr/*",
+    "https://challenges.cloudflare.com/*",
+    "http://127.0.0.1:8765/*"
+  ],
+  "background": {
+    "service_worker": "worker-0.11.4.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://rez.metu.edu.tr/view/home.jsf*"
+      ],
+      "js": [
+        "parser.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://challenges.cloudflare.com/*"
+      ],
+      "js": [
+        "verification-checkbox.js",
+        "verification-content.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "ODTÜ Rezervasyon Takip",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "minimum_chrome_version": "116"
+}

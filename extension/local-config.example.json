@@ -1,0 +1,5 @@
+{
+  "ingestUrl": "http://127.0.0.1:8765/ingest",
+  "key": "REPLACE_WITH_SETUP_GENERATED_HEX_KEY",
+  "fastWatch": false
+}
